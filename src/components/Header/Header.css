@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 20px;
+    height: 65px;
+    color: white;
+}
+
+.logo{
+    height: 50px;
+}
+
+.web-name{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.text{
+    font-weight: 500;
+}

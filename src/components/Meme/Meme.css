@@ -1,0 +1,35 @@
+.main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 30px;
+    font-weight: 500;
+}
+
+.form-input{
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.input-name{
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "karla", sans-serif;
+}
+
+.form-btn{
+    grid-column: 1 / -1;
+    height: 36px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    font-family: "karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid;
+}
